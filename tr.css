@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0;
+    background-image:linear-gradient(to left,rgb(237, 222, 136),white) ;
+    
+}
+header {
+    background-color: #8065cd;
+    background-image: url(forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    display: flex;
+}
+
+hero {
+    background-image: linear-gradient(to bottom, #333, #666);
+    padding: 20px;
+    text-align: center;
+}
+
+hero img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
+
+bio {
+    padding: 20px;
+}
+.fst-italic{
+    color:white;
+}
+
+bio h2 {
+    margin-top: 0;
+}
+
+bio p {
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+quotes {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;    
+
+}
+
+quotes h2 {
+    margin-top: 0;
+}
+
+quotes blockquote {
+    font-size: 29px;
+    font-style: italic;
+    margin-bottom: 20px;
+    
+}
+
+achievements {
+    padding: 20px;
+}
+
+achievements h2 {
+    margin-top: 0;
+}
+
+achievements ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+achievements li {
+    margin-bottom: 10px;
+}
+
+footer {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
